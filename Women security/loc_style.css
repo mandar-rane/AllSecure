@@ -39,10 +39,10 @@
 
 
 #coords{
-   display: flex;
+   display: none;
    justify-content: center;
    list-style: none;
-   font-size: 2rem;
+   font-size: 2.5rem;
    position: relative;
    top: 25vh;
    font-family: monospace;
@@ -86,7 +86,6 @@
    bottom: 0;
    width: 100%;
    font-family: monospace;
-   font-size: 11px;
 }
 
 .licence{
