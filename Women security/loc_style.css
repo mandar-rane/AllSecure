@@ -139,14 +139,22 @@
 
 
 
-@media (max-width: 750px) { 
+@media (max-width: 400px) { 
    #coords{
-      font-size: 1.4rem;
+      font-size: 1.5rem;
    }
+
 }
 
-@media (max-width: 540px) { 
+@media (max-width: 300px) { 
    #coords{
       font-size: 1.1rem;
    }
+
+}
+@media (max-width: 230px) { 
+   #coords{
+      font-size: 0.9rem;
+   }
+
 }
