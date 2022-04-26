@@ -54,6 +54,10 @@
  #coords li{
     padding: 10px;
  }
+
+ .center{
+    margin: 7px;
+ }
  
  
  
@@ -93,6 +97,39 @@
  .licence{
     text-align: center;
  }
+
+.live-indicator{
+   display: none;
+   justify-content: center;
+   margin-top: 15vh;
+   font-family: monospace;
+}
+.pulse {
+   width: 17px;
+   height: 17px;
+   background: rgb(255, 0, 64);
+   border-radius: 50%;
+   color: #fff;
+   font-size: 20px;
+   animation: animate 2s linear infinite;
+}
+
+
+
+@keyframes animate {
+   0% {
+       box-shadow: 0 0 0 0 rgba(255, 0, 64, 0.7), 0 0 0 0 rgba(255, 0, 64, 0.7);
+   }
+   40% {
+       box-shadow: 0 0 0 50px rgba(255, 0, 64, 0), 0 0 0 0 rgba(255, 0, 64, 0.7);
+   }
+   80% {
+       box-shadow: 0 0 0 50px rgba(255, 0, 64, 0), 0 0 0 30px rgba(255, 0, 64, 0);
+   }
+   100% {
+       box-shadow: 0 0 0 0 rgba(255, 0, 64, 0), 0 0 0 30px rgba(255, 0, 64, 0);
+   }
+}
 
 @media (max-width: 450px) { 
     .lic{
