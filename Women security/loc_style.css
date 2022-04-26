@@ -91,3 +91,9 @@
 .licence{
    text-align: center;
 }
+
+@media (max-width: 450px) { 
+    .lic{
+       font-size: 9px;
+    }
+}
