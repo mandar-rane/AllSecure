@@ -1,96 +1,98 @@
 *{
-   padding: 0px;
-   margin: 0px;
-}
-
-
-.top-banner{
-   height: 60px;
-   background-color: rgb(101, 27, 101);
-   color: white;
-}
-.main-bdy{
-   width: 100%;
-   height: 100vh;
-   color: white;
-   background-image: url(coord-bg-img.jpg);
-   background-size: cover;
-
-}
-.top-banner h2{
-   display: flex;
-   justify-content: center;
-}
-
-.top-banner h5{
-   display: flex;
-   justify-content: center;
-   margin-top: 10px;
-}
-
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ 
+ .top-banner{
+    height: 60px;
+    background-color: rgb(101, 27, 101);
+    color: white;
+ }
+ .main-bdy{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url(coord-bg-img.jpg);
+    background-size: cover;
+ 
+ }
+ .top-banner h2{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .top-banner h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ 
 .wrap {
    display: flex;
    align-items: center;
    justify-content: center;
-   position: relative;
-   top: 35vh;
+   position: fixed;
+   top: 70vh;
    height: 10vh;
- }
-
-
-#coords{
-   display: none;
-   justify-content: center;
-   list-style: none;
-   font-size: 2.5rem;
-   position: relative;
-   top: 25vh;
-   font-family: monospace;
-   flex-wrap: wrap;
-}
-
-#coords li{
-   padding: 10px;
-}
-
-
-
-
-.wrap input{
-   width: 220px;
-   height: 45px;
-   font-family: 'Roboto', sans-serif;
-   font-size: 11px;
-   text-transform: uppercase;
-   letter-spacing: 2.5px;
-   font-weight: 500;
-   color: #000;
-   background-color: #fff;
-   border: none;
-   border-radius: 45px;
-   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-   transition: all 0.3s ease 0s;
-   cursor: pointer;
-   outline: none;
+   width: 100%;
 }
  
-.wrap form :hover {
-   background-color: #e52e2e;
-   box-shadow: 0px 15px 20px rgba(204, 37, 44, 0.4);
-   color: #fff;
-   transform: translateY(-7px);
+ 
+ #coords{
+    display: none;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    position: fixed;
+    top: 45vh;
+    font-family: monospace;
+    flex-wrap: wrap;
+    width: 100%;
  }
-
-.lic{
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-   font-family: monospace;
-}
-
-.licence{
-   text-align: center;
-}
+ 
+ #coords li{
+    padding: 10px;
+ }
+ 
+ 
+ 
+ 
+ .wrap input{
+    width: 220px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+ }
+  
+ .wrap form :hover {
+    background-color: #e52e2e;
+    box-shadow: 0px 15px 20px rgba(204, 37, 44, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+ 
+ .lic{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: monospace;
+ }
+ 
+ .licence{
+    text-align: center;
+ }
 
 @media (max-width: 450px) { 
     .lic{
