@@ -137,8 +137,16 @@
     }
 }
 
-@media (max-width: 380px) { 
+
+
+@media (max-width: 750px) { 
    #coords{
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+   }
+}
+
+@media (max-width: 540px) { 
+   #coords{
+      font-size: 1.1rem;
    }
 }
